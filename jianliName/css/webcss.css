@@ -1,0 +1,291 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: #22B573;
+}
+
+
+
+.nav{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	overflow: hidden;
+}
+
+.list{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.list b ,.list i{
+	display: block;
+	padding: 0 15px;
+	color: #aaa;
+	line-height: 40px;
+	text-align: center;
+}
+
+li{
+	float: left;
+}
+
+.list li a{
+	/*border: 1px solid red;*/
+	display: block;
+	/*transition: 0.5s;*/
+}
+
+
+.list li a.on{
+	color: white;
+	background-color: #333;
+}
+
+
+
+
+
+
+.list b{
+	font-weight: 100;
+}
+
+.list i{
+	font-style: normal;
+	/*background-color: #333;*/
+	color: white;
+}
+
+/*.list a:hover{
+	margin-top: -40px;
+}*/
+
+
+
+
+/*---------------------------------------------*/
+
+.banner{
+	padding: 0;
+	margin:200px auto;
+	border: 5px solid #000;
+	width: 600px;
+	height: 350px; 
+	overflow: hidden;
+	position: relative;
+}
+
+.banner .img li{
+	float: left;
+}
+
+.banner .img{
+	width: 5000px;
+	position: absolute;
+	/*left: -600px;*/
+	top: 0;
+}
+
+.banner .num{
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	left: 45%;
+	text-align: center;
+}
+
+.banner .num>li{
+	width: 10px;
+	height: 10px;
+	background-color: #888;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 4px;
+	cursor: pointer;
+}
+
+.banner .num li.on{
+	background-color: #F60;
+}
+
+.banner .btn{
+	width: 30px;
+	height: 50px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	font-size: 40px;
+	cursor: pointer;
+	line-height: 50px;
+	color: #fff;
+	font-family: STSong;
+	display: none;
+}
+
+.banner:hover .btn{
+	display: block;
+}
+
+.banner .btn_l{
+	left: 0;
+}
+
+.banner .btn_r{
+	right: 0;
+}
+
+
+#email_demo{
+	position: relative;
+	width: 100%;
+	background-color: red;
+}
+
+#email_demo>h1{
+	position: absolute;
+	left: 50%;
+	margin-left: -230px;
+	margin-top: 80px;
+	color: black;
+	font-size: 40px;
+	text-shadow: 1px 2px #22B573, 2px 4px #FFF;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#email_demo>h1:hover{
+	color: #fffe0f;
+	text-shadow: 1px 2px #22B573, 2px 4px #FFF;
+}
+
+
+
+/*one*/
+
+.one{
+	width: 100%;
+	height: 60px;
+	/*background-color: red;*/
+}
+.one div{
+	width: 400px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+
+.one span{
+	font-size: 70px;
+	color: white;
+}
+
+.three{
+	width: 100%;
+	height: 600px;
+	/*background-color: red;*/
+	margin: 50px 0;
+}
+
+
+.cf{
+	margin: 0 29%;
+}
+
+.cf img{
+	margin: 0 20px;
+}
+
+.cf img:hover{
+	-webkit-transform: rotate(180deg); 
+	-o-transform: rotate(180deg); 
+	-moz-transform: rotate(180deg); 
+}
+
+.cf img{
+	transition: All 0.7s ease-in-out;
+}
+
+
+.photo{
+	border-radius: 50%;
+	border: 7px solid black;
+}
+
+.wf{
+	margin: 0 10%;
+}
+
+.wf div{
+	width: 500px;
+	height: 200px;
+	/*background-color: red;*/
+	float: left;
+	margin-left: 50px;
+	margin-top: 100px;
+	color: white;
+	font-size: 18px;
+}
+
+.wf div ul{
+	margin-left: 150px; 
+	margin-top: 10px;
+}
+
+/*....................................*/
+.inner{
+	height: 500px;
+	/*background-color: red;*/
+	margin: 10px 14%;
+}
+
+.inner ul{
+	width: 200px;
+	float: left;
+	border: 3px solid white;
+	margin: 10px 25px;
+}
+.inner ul li{
+	width: 100%;
+	height: 48px;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	line-height: 48px;
+}
+
+.inner ul .li1~li:hover{
+	background-color: white;
+	color: black;
+}
+
+.li1{
+	background-color: white;
+	color: black !important;
+}
+
+.jiantou{
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+	display: none;
+}
+
+.jiantou a{
+	width: 80px;
+	height: 80px;
+	margin: 0 48%;
+}
